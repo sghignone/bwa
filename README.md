@@ -12,4 +12,4 @@ WORKDIR	/scratch
 
 ## Usage
 
-docker run --rm -it -v 'your local dir':/scratch sghignone/bwa bwa (options)
+docker run --rm -it -v 'path to your local dir':/scratch sghignone/bwa bwa (options)
